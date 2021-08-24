@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" prefHeight="590.0" prefWidth="762.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ImageView fitHeight="591.0" fitWidth="374.0" layoutX="390.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Palestine.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="590.0" fitWidth="394.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../PAL.jpg" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="RamallahRB" layoutX="625.0" layoutY="329.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="AlBirehRB" layoutX="663.0" layoutY="321.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="NablusRB" layoutX="633.0" layoutY="272.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="SalfeitRB" layoutX="602.0" layoutY="304.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="QalqiliaRB" layoutX="571.0" layoutY="289.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="TulkarmRB" layoutX="579.0" layoutY="255.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="HaifaRB" layoutX="594.0" layoutY="144.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="AkaRB" layoutX="617.0" layoutY="113.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="SafadRB" layoutX="700.0" layoutY="105.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="TabareaRB" layoutX="708.0" layoutY="153.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="AlnasraRB" layoutX="679.0" layoutY="181.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="JeninRB" layoutX="649.0" layoutY="225.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="TubasRB" layoutX="692.0" layoutY="242.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="JerichoRB" layoutX="708.0" layoutY="400.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="BethlehemRB" layoutX="641.0" layoutY="447.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="JerusalemRB" layoutX="641.0" layoutY="417.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="HebronRB" layoutX="625.0" layoutY="514.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="YafaRB" layoutX="536.0" layoutY="361.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="GazaRB" layoutX="454.0" layoutY="506.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <RadioButton fx:id="RafahRB" layoutX="407.0" layoutY="570.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="6.0" style="-fx-background-radius: 10;" />
+      <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Algorithms:" wrappingWidth="136.0">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="textaria" layoutX="14.0" layoutY="301.0" prefHeight="154.0" prefWidth="341.0" />
+      <Button fx:id="ResetBTN" layoutX="14.0" layoutY="548.0" mnemonicParsing="false" onAction="#ResetButton" text="Reset">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></Button>
+      <Text layoutX="16.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Path:-" wrappingWidth="111.658203125">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Text>
+      <VBox layoutX="14.0" layoutY="56.0" prefHeight="88.0" prefWidth="366.0" spacing="12.0">
+         <children>
+            <HBox prefHeight="13.0" prefWidth="366.0">
+               <children>
+                  <RadioButton fx:id="AstarRB" mnemonicParsing="false" onAction="#AlgoInitialize" prefHeight="20.0" prefWidth="24.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="A* Algorithm" wrappingWidth="154.49609375">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="DepthAlgorithm" mnemonicParsing="false" onAction="#AlgoInitialize" prefHeight="20.0" prefWidth="24.0">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </RadioButton>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Depth First Algorithm">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox prefHeight="20.0" prefWidth="366.0">
+               <children>
+                  <RadioButton fx:id="UniformAlgorithm" mnemonicParsing="false" onAction="#AlgoInitialize" prefHeight="20.0" prefWidth="24.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Uniform Algorithm" wrappingWidth="154.49609375">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="Optimal2Algorithm" mnemonicParsing="false" onAction="#AlgoInitialize" prefHeight="17.0" prefWidth="24.0" />
+                  <Text smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Optimal 2 Algorithm" wrappingWidth="164.48046875">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="366.0">
+               <children>
+                  <RadioButton fx:id="BreadthAlgorithm" mnemonicParsing="false" onAction="#AlgoInitialize" prefHeight="17.0" prefWidth="23.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Breadth Algorithm" wrappingWidth="154.49609375">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="Optimal1Algorithm" mnemonicParsing="false" onAction="#AlgoInitialize" prefHeight="17.0" prefWidth="24.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Optimal 1 Algorithm">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Line endX="181.0" layoutX="212.0" layoutY="144.0" startX="-212.0" />
+      <Line endX="222.0" layoutX="171.0" layoutY="259.0" startX="-171.0" />
+      <Button fx:id="Run" layoutX="322.0" layoutY="183.0" mnemonicParsing="false" onAction="#Run" text="Run">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></Button>
+      <HBox layoutX="14.0" layoutY="155.0" prefHeight="100.0" prefWidth="302.0">
+         <children>
+            <VBox prefHeight="78.0" prefWidth="136.0" spacing="30.0">
+               <children>
+                  <Button fx:id="SetStartBTN" mnemonicParsing="false" onAction="#setStart" text="Set Start City">
+                     <font>
+                        <Font name="Times New Roman" size="16.0" />
+                     </font></Button>
+                  <Button fx:id="SetEndBTN" alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#setgoal" prefHeight="31.0" prefWidth="108.0" text="Set End City">
+                     <font>
+                        <Font name="Times New Roman" size="16.0" />
+                     </font></Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="76.0" spacing="30.0">
+               <children>
+                  <Button fx:id="savestart" mnemonicParsing="false" onAction="#Startsave" text="Save">
+                     <font>
+                        <Font name="Times New Roman" size="16.0" />
+                     </font></Button>
+                  <Button fx:id="savegoal" mnemonicParsing="false" onAction="#Goalsave" text="Save">
+                     <font>
+                        <Font name="Times New Roman" size="16.0" />
+                     </font></Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="59.0" prefWidth="100.0" spacing="30.0">
+               <children>
+                  <Button fx:id="cancelstart" mnemonicParsing="false" onAction="#Startcanel" text="Cancel">
+                     <font>
+                        <Font name="Times New Roman" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cancelgoal" mnemonicParsing="false" onAction="#Goalcanel" text="Cancel">
+                     <font>
+                        <Font name="Times New Roman" size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="504.0" prefHeight="37.0" prefWidth="302.0" spacing="20.0">
+         <children>
+            <HBox prefHeight="37.0" prefWidth="98.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Listen" wrappingWidth="66.48779296875">
+                     <font>
+                        <Font name="Times New Roman" size="25.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../Sound.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Button fx:id="ListenEngBTN" mnemonicParsing="false" onAction="#TalkEnglish" prefHeight="31.0" prefWidth="71.0" text="English" textAlignment="RIGHT">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font>
+            </Button>
+          <Button fx:id="ListenArbBTN" minWidth="66.0" mnemonicParsing="false" onAction="#TalkArbic" prefHeight="25.0" text="عربي">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="464.0" prefHeight="37.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Found?" wrappingWidth="82.91796875">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Text>
+            <Circle fx:id="found" fill="WHITE" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </HBox>
+      <Button fx:id="ExitBTN" layoutX="322.0" layoutY="548.0" mnemonicParsing="false" onAction="#Exit" text="Exit">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
